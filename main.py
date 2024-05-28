@@ -168,3 +168,5 @@ for _ in trange(1, epochs + 1, desc='Epoch'):
 huggingface_hub.login("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")
 model.push_to_hub("finetuned-bert-test")
 tokenizer.push_to_hub("finetuned-bert-test")
+
+#https://huggingface.co/datasets/dair-ai/emotion/blob/main/data/data.jsonl.gz
